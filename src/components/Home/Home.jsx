@@ -32,7 +32,7 @@ import logo1 from './assest/Next Invest - Landing Page (Icons)/001-facebook.svg'
 import logo2 from './assest/Next Invest - Landing Page (Icons)/003-twitter.svg'
 import logo3 from './assest/Next Invest - Landing Page (Icons)/004-instagram.svg'
 import logo4 from './assest/Next Invest - Landing Page (Icons)/CaretDown.svg'
-import svg17 from './assest/Next Invest - Landing Page (images)/shape.svg'
+import Shape from './assest/Next Invest - Landing Page (images)/Shape.svg'
 import progress from './assest/Next Invest - Landing Page (images)/Subtract.svg'
 
 
@@ -117,7 +117,7 @@ return (
   <p className="text-3xl font-bold">Offerings open for investement </p>
   <p className="font-semibold" >Explore pre-vetted investement opportunities avaliable in a growing <br />number of industry categories.</p>
   </div>
-  <img src={svg17} alt="" className="h-44 w-44 mt-44" />
+  <img src={Shape} alt="" className="h-44 w-44 mt-44" />
 {
   cards.map(card=>{
     const totalRaised =card.get_price;
